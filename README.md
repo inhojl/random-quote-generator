@@ -31,23 +31,38 @@
 
 
 ## Redux state
+```
 {
   quote: 
     quotes: {
-    123: {
-      id: 123,
-      quote: 'you shall not pass',
-      rating: ('lame', 'meh', 'great),
-      index: 0
-    },
-    : {
-      id: 453,
-      quote: 'you shall not pass',
-      rating: ('lame', 'meh', 'great),
-      index: 1
+      123: {
+        id: 123,
+        quote: 'you shall not pass',
+        rating: ('lame', 'meh', 'great),
+        index: 0
+      },
+      453: {
+        id: 453,
+        quote: 'I'm batman',
+        rating: ('lame', 'meh', 'great),
+        index: 1
+      }
     }
   },
-  current: {
-    
+  user: {
+    ipAddress: '192.168.0.1',
+    lon: '-132.194',
+    lat: '33.53
+  },
+  ui: {
+    current: {
+      453: {
+        id: 453,
+        quote: 'you shall not pass',
+        rating: ('lame', 'meh', 'great),
+        index: 1
+      }
+    }
   }
 }
+```
