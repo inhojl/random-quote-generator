@@ -33,20 +33,19 @@
 ## Redux state
 ```
 {
-  quote: 
-    quotes: {
-      123: {
-        id: 123,
-        quote: 'you shall not pass',
-        rating: ('lame', 'meh', 'great),
-        index: 0
-      },
-      453: {
-        id: 453,
-        quote: 'I'm batman',
-        rating: ('lame', 'meh', 'great),
-        index: 1
-      }
+
+  quotes: {
+    123: {
+      id: 123,
+      quote: 'you shall not pass',
+      rating: ('lame', 'meh', 'great),
+      index: 0
+    },
+    453: {
+      id: 453,
+      quote: 'I'm batman',
+      rating: ('lame', 'meh', 'great),
+      index: 1
     }
   },
   user: {
