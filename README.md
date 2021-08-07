@@ -33,7 +33,6 @@
 ## Redux state
 ```
 {
-
   quotes: {
     123: {
       id: 123,
@@ -54,7 +53,7 @@
     lat: '33.53
   },
   ui: {
-    current: {
+    currentQuote: {
       453: {
         id: 453,
         quote: 'you shall not pass',
